@@ -3,7 +3,7 @@
 <head>
 <body>
 <?php
-echo "Version 2 <br>";
+echo "我是組長<br>";
 echo "Hello World!";
 ?>
 </body>
