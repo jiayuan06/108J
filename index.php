@@ -30,7 +30,7 @@ if($_POST){
         $oid = $_POST['oid'];
         $uid = $_POST['uid'];
         $eid = $_POST['eid'];
-        $msg = $_POST['msg'];
+        #$msg = $_POST['msg'];
         $Textbox8 = $_POST['Textbox8'];
         $Textbox9 = $_POST['Textbox9'];
         $Textbox10 = $_POST['Textbox10'];
@@ -47,7 +47,7 @@ if($_POST){
         $template = $client->getFormFieldTemplate($process);
 
         $form = simplexml_load_string($template);
-        $form->Textbox0 = $msg;
+        #$form->Textbox0 = $msg;
         $form->Textbox8 = $Textbox8;
         $form->Textbox9 = $Textbox9;
         $form->Textbox10 = $Textbox10;
