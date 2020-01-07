@@ -1,7 +1,8 @@
 <?php
 
 $host="db.mis.kuas.edu.tw";
-$user="s1105137145";
-$password="O100513113";
+$database="s1105137147";
+$account="s1105137147";
+$password="N126192461";
 $easyflow = '140.133.78.60';
 ?>
